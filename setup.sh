@@ -2,5 +2,6 @@
 
 set -eu
 
-server/setup.sh
+SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
+"${SCRIPT_DIR}/server/setup.sh"
