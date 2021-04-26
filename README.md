@@ -39,3 +39,8 @@ Start django dev server in `server/hospital` directory:
 $ python manage.py runserver
 ...
 ```
+
+### Polls
+
+http://localhost:8000/polls 
+http://localhost:8000/admin user:admin password:7415
